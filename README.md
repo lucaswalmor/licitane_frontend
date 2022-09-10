@@ -1,5 +1,3 @@
-# prova_licitanet
-
 ## Project setup
 ```
 npm install

@@ -7,6 +7,9 @@ npm install --save vue-toastification@next
 
 npm install axios
 ```
+> [Api Toas Notification](https://vue-toastification.maronato.dev/)
+
+> [Api axios](https://axios-http.com/docs/intro)
 
 ## Endpoints
 

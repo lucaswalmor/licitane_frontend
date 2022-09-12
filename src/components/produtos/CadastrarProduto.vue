@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row col-md-4">
               <label for="cod_produto" class="form-label pt-3">Código</label>
-              <input type="text" class="form-control" v-model="cod_produto">
+              <input type="text" id="cod_produto" class="form-control" v-model="cod_produto">
             </div>
             <div class="row col-md-4">
               <label for="nome_produto" class="form-label pt-3">Nome</label>
@@ -38,7 +38,7 @@
                 <option v-for="cidade in cidades" :key="cidade.id">{{cidade.nome}}</option>
               </select>
             </div>
-            <button class="btn btn-success mt-5" @click="cadastrarProduto">Envicar</button>
+            <button class="btn btn-success mt-5" id="cadastrar" @click="cadastrarProduto">Envicar</button>
         </div>
       </div>
     </div>

@@ -42,7 +42,6 @@
 <script>
 import Header from '../geral/Header.vue';
 import { useToast } from "vue-toastification";
-import axios from 'axios'
 
 export default {
     name: 'EditarProduto',
@@ -55,7 +54,7 @@ export default {
     methods: {
         listarProdutos() {
             // api com dados dos produtos cadastrados
-            axios.get('http://127.0.0.1:8000/api/products')
+            this.axios('http://127.0.0.1:8000/api/products')
             .then((res) => {
                 if(res.status == 200) {
                     // preenche o array de produtos para listar na tabela
